@@ -52,6 +52,6 @@ end
 def organize_schools(schools)
   locations = {}
   arr = schools.each {|school|
-    puts school.[location]
+    puts school.[:location]
   }
 end
