@@ -34,10 +34,10 @@ def count_elements(arr)
   }
 end
 
-def merge_data(keys, values)
+def merge_data(h1, h2)
   merged = []
-  keys.each {|x|
-    values.has_key?(x.fi)
+  h2.values.each_with_index {|x,i|
+    merged << x.merge(h1[i])
   }
   merged
 end
