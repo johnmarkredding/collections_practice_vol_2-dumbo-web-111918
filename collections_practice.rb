@@ -50,6 +50,7 @@ def find_cool(hashes)
 end
 
 def organize_schools(schools)
+  puts schools.inspect
   locations = {}
   arr = schools[0].each {|school|
     puts school[:location]
