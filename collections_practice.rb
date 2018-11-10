@@ -36,7 +36,7 @@ end
 
 def merge_data(keys, values)
   merged = {}
-  merged = keys.map.with_index {|x,i|
-    keys[i] 
+  keys.each_with_index {|x,i|
+    merged[x] = values[i]
   }
 end
