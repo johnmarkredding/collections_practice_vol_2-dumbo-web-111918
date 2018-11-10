@@ -27,7 +27,9 @@ end
 
 def count_elements(arr)
   new_arr = arr.uniq
-  new_arr. {
-    
+  new_arr.each {|x|
+    x[count] = arr.select {|y|
+      y[name] == x[name]
+    }.size
   }
 end
