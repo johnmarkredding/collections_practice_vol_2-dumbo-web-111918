@@ -25,3 +25,9 @@ def remove_non_strings(arr)
   }
 end
 
+def count_elements(arr)
+  new_arr = arr.uniq
+  new_arr. {
+    
+  }
+end
