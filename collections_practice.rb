@@ -50,7 +50,6 @@ def find_cool(hashes)
 end
 
 def organize_schools(schools)
-  print schools
   outputs = {}
   schools.each {|school_name,school_info|
     location_name = school_info[:location]
