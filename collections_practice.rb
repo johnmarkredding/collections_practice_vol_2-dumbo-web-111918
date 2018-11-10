@@ -51,4 +51,7 @@ end
 
 def organize_schools(schools)
   locations = {}
+  schools.each {|school|
+    school[location]
+  }
 end
