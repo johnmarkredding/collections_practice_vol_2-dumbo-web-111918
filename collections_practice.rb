@@ -48,3 +48,7 @@ def find_cool(hashes)
     x.has_value?("cool") 
   }
 end
+
+def organize_schools()
+  
+end
