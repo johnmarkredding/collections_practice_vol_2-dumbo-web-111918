@@ -52,10 +52,10 @@ end
 def organize_schools(schools)
   print schools
   outputs = {}
-  arr = schools.each {|key,school|
-    output_key = school[:location]
-    output_value = school  
-    locations[school[:location]] << school
+  schools.each {|school_name,school_info|
+    location_name = school_info[:location]
+    
+    outputs[location_name] << school_name
   }
   outputs
 end
