@@ -44,5 +44,7 @@ def merge_data(h1, h2)
 end
 
 def find_cool(hashes)
-  hashes
+  hashes.select {|x|
+    x.values > 
+  }
 end
