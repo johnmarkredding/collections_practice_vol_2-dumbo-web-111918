@@ -42,3 +42,7 @@ def merge_data(h1, h2)
   }
   merged
 end
+
+def find_cool(hashes)
+  hashes
+end
