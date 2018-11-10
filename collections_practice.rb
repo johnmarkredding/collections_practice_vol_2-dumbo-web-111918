@@ -45,6 +45,6 @@ end
 
 def find_cool(hashes)
   hashes.select {|x|
-    x.values > 
+    x.has_value?("cool") 
   }
 end
