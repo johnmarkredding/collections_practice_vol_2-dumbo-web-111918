@@ -35,7 +35,7 @@ def count_elements(arr)
 end
 
 def merge_data(keys, values)
-  merged = {}
+  merged = []
   keys.each_with_index {|x,i|
     merged[x] = values[i]
   }
