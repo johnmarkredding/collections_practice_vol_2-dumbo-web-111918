@@ -21,7 +21,7 @@ end
 
 def remove_non_strings(arr)
   arr.delete_if {|x|
-    x.is_a?(String)
+    !(x.is_a?(String))
   }
 end
 
