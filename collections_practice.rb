@@ -54,7 +54,7 @@ def organize_schools(schools)
   outputs = {}
   schools.each {|school_name,school_info|
     location_name = school_info[:location]
-    
+    outputs[location_name] = []
     outputs[location_name] << school_name
   }
   outputs
