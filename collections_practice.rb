@@ -52,7 +52,7 @@ end
 def organize_schools(schools)
   outputs = {}
   schools.each {|school_name,school_info|
-    location_name = school_info[:location]
+  location_name = school_info[:location]
     if !(outputs.has_key?(location_name))
       outputs[location_name] = []
     end
