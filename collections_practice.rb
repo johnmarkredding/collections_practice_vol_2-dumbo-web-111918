@@ -40,4 +40,6 @@ def merge_data(keys, values)
     merged <<  {}[x] = values[i]
   }
   merged
+  puts keys
+  puts values
 end
