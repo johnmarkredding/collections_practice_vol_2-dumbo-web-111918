@@ -37,6 +37,7 @@ end
 def merge_data(h1, h2)
   merged = []
   h2[0].values.each_with_index {|x,i|
+    puts h1[i]
     merged << x.merge(h1[i])
   }
   merged
