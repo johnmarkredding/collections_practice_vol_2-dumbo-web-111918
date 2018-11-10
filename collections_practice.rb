@@ -39,7 +39,6 @@ def merge_data(keys, values)
   keys.each_with_index {|x,i|
     merged <<  {}[x] = values[i]
   }
-  puts merged
   puts keys
   puts values
 end
