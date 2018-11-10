@@ -26,3 +26,4 @@ def remove_non_strings(arr)
 end
 
 remove_non_strings(["arrr", 445, "64"])
+
