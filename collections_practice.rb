@@ -55,6 +55,7 @@ def organize_schools(schools)
     location_name = school_info[:location]
     if outputs[location_name].empty? 
       outputs[location_name] = []
+    end
     outputs[location_name] << school_name
   }
   outputs
