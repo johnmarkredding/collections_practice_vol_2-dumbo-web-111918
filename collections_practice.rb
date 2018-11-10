@@ -33,3 +33,7 @@ def count_elements(arr)
     }.size
   }
 end
+
+def merge_data
+  
+end
