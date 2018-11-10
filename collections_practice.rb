@@ -50,5 +50,5 @@ def find_cool(hashes)
 end
 
 def organize_schools(schools)
-  schools
+  locations
 end
