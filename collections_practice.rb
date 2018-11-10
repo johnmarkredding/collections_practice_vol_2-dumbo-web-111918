@@ -37,7 +37,7 @@ end
 def merge_data(keys, values)
   merged = []
   keys.each {|x|
-    values.has
+    values.has_key?(x.fi)
   }
   merged
 end
