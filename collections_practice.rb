@@ -53,7 +53,7 @@ def organize_schools(schools)
   outputs = {}
   schools.each {|school_name,school_info|
     location_name = school_info[:location]
-    if outputs[location_name].empty? 
+    if outputs[location_name].empty? do 
       outputs[location_name] = []
     end
     outputs[location_name] << school_name
